@@ -8,9 +8,9 @@ lazy val publishSettings = Seq(
   organization := "com.github.mpetruska",
   name := "uk-modulo-scala",
   homepage := Some(url("https://github.com/mpetruska/uk-modulo-scala")),
-  version := "6.90.0",
+  version := "6.90.1",
   licenses := Seq("MIT" -> url("http://www.opensource.org/licenses/mit-license.php")),
-  crossScalaVersions := Seq("2.12.13", "2.13.5"),
+  crossScalaVersions := Seq("2.13.12"),
   publishMavenStyle := true,
   pomExtra :=
     <developers>
